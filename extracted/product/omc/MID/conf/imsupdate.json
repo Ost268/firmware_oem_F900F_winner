@@ -1,0 +1,18 @@
+{
+  "update_version": 1,
+  "note": "ImsSwitch update for Touch Setup",
+  "imsswitch_update":
+  {
+    "defaultswitch": {
+    },
+    "imsswitch": [
+      {
+        "mnoname": "Touch_LB",
+        "enableIms": false,
+        "enableServiceVolte": false,
+        "enableServiceVilte": false,
+        "enableServiceSmsip": false
+      }
+    ]
+  }
+}

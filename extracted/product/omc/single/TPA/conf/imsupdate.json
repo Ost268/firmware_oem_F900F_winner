@@ -1,0 +1,12 @@
+ {
+     "note": "Add imsupdate for SM-F900F with carrier = TPA",
+     "imsswitch_update": { 
+         "imsswitch": [
+             {
+                 "mnoname": "Claro_EC",
+                 "enableServiceRcs": false,
+                 "enableServiceRcschat": false
+             }
+         ]
+     }
+ }

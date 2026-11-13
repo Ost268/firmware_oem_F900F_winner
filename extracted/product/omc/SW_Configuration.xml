@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SW-Configuration>
+    <MobileData>
+        <PublicName>SM-F900F</PublicName>
+    </MobileData>
+    <OmcYn>Y</OmcYn>
+    <MultiCode>OXM</MultiCode>
+    <CustomerDataSet>
+        <CSCName>F900FOXM</CSCName>
+        <CSCVersion>7HWG1</CSCVersion>
+        <NbCustomer>41</NbCustomer>
+        <CustomerData src="/Customer/BGL/customer.xml" />
+        <CustomerData src="/Customer/BRI/customer.xml" />
+        <CustomerData src="/Customer/CHO/customer.xml" />
+        <CustomerData src="/Customer/COO/customer.xml" />
+        <CustomerData src="/Customer/CPW/customer.xml" />
+        <CustomerData src="/Customer/EGY/customer.xml" />
+        <CustomerData src="/Customer/EUR/customer.xml" />
+        <CustomerData src="/Customer/GTO/customer.xml" />
+        <CustomerData src="/Customer/ILO/customer.xml" />
+        <CustomerData src="/Customer/INU/customer.xml" />
+        <CustomerData src="/Customer/ITV/customer.xml" />
+        <CustomerData src="/Customer/KSA/customer.xml" />
+        <CustomerData src="/Customer/MID/customer.xml" />
+        <CustomerData src="/Customer/PAK/customer.xml" />
+        <CustomerData src="/Customer/MWD/customer.xml" />
+        <CustomerData src="/Customer/MXO/customer.xml" />
+        <CustomerData src="/Customer/NEE/customer.xml" />
+        <CustomerData src="/Customer/PEO/customer.xml" />
+        <CustomerData src="/Customer/PHE/customer.xml" />
+        <CustomerData src="/Customer/PHN/customer.xml" />
+        <CustomerData src="/Customer/ROM/customer.xml" />
+        <CustomerData src="/Customer/SEK/customer.xml" />
+        <CustomerData src="/Customer/SER/customer.xml" />
+        <CustomerData src="/Customer/SIO/customer.xml" />
+        <CustomerData src="/Customer/SKZ/customer.xml" />
+        <CustomerData src="/Customer/SMP/customer.xml" />
+        <CustomerData src="/Customer/THL/customer.xml" />
+        <CustomerData src="/Customer/TPA/customer.xml" />
+        <CustomerData src="/Customer/TPH/customer.xml" />
+        <CustomerData src="/Customer/XEF/customer.xml" />
+        <CustomerData src="/Customer/XEH/customer.xml" />
+        <CustomerData src="/Customer/XEO/customer.xml" />
+        <CustomerData src="/Customer/XEV/customer.xml" />
+        <CustomerData src="/Customer/XEZ/customer.xml" />
+        <CustomerData src="/Customer/XFA/customer.xml" />
+        <CustomerData src="/Customer/XME/customer.xml" />
+        <CustomerData src="/Customer/XNZ/customer.xml" />
+        <CustomerData src="/Customer/XSA/customer.xml" />
+        <CustomerData src="/Customer/XSG/customer.xml" />
+        <CustomerData src="/Customer/XSP/customer.xml" />
+        <CustomerData src="/Customer/XTC/customer.xml" />
+    </CustomerDataSet>
+    <OmcInfo>
+        <OmcCode>
+            <CustomerCode>BGL</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_BGL_12_0005</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>BRI</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_BRI_12_0008</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
+            <Packages>
+                <package name="com.rsupport.rs.activity.rsupport.aas2" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>CHO</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_CHO_12_0013</Version>
+            <CustomerEdition>ED0009</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>COO</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_COO_12_0018</Version>
+            <CustomerEdition>ED0011</CustomerEdition>
+            <Packages>
+                <package name="co.gov.ins.guardianes" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>CPW</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_CPW_12_0001</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>EGY</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_EGY_12_0005</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>EUR</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_EUR_12_0007</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>GTO</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_GTO_12_0027</Version>
+            <CustomerEdition>ED0023</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>ILO</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_ILO_12_0008</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>INU</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_INU_12_0007</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>ITV</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_ITV_12_0010</Version>
+            <CustomerEdition>ED0006</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>KSA</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_KSA_12_0008</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>MID</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_MID_12_0008</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>MWD</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_MWD_12_0008</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>MXO</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_MXO_12_0029</Version>
+            <CustomerEdition>ED0014</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>NEE</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_NEE_12_0009</Version>
+            <CustomerEdition>ED0006</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>PAK</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_PAK_12_0007</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>PEO</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_PEO_12_0001</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>PHE</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_PHE_12_0009</Version>
+            <CustomerEdition>ED0006</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>PHN</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_PHN_12_0010</Version>
+            <CustomerEdition>ED0006</CustomerEdition>
+            <Packages>
+                <package name="com.samsung.intrafficreply" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>ROM</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_ROM_12_0010</Version>
+            <CustomerEdition>ED0006</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SEK</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_SEK_12_0006</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SER</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_SER_12_0009</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
+            <Packages>
+                <package name="ru.samsung.catalog" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SIO</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_SIO_12_0008</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SKZ</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_SKZ_12_0007</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SMP</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_SMP_12_0001</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>THL</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_THL_12_0012</Version>
+            <CustomerEdition>ED0011</CustomerEdition>
+            <Packages>
+                <package name="com.rsupport.rs.activity.rsupport.aas2" />
+                <package name="com.samsung.privilege" />
+                <package name="com.samsung.th.galaxyappcenter" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>TPA</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_TPA_12_0044</Version>
+            <CustomerEdition>ED0030</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>TPH</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_TPH_12_0009</Version>
+            <CustomerEdition>ED0006</CustomerEdition>
+            <Packages>
+                <package name="pt.galp.android.evodriver.samsung" />
+                <package name="pt.sibs.android.mbway" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XEF</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_XEF_12_0013</Version>
+            <CustomerEdition>ED0007</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XEH</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_XEH_12_0007</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XEO</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_XEO_12_0007</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XEV</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_XEV_12_0016</Version>
+            <CustomerEdition>ED0006</CustomerEdition>
+            <Packages>
+                <package name="com.rsupport.rs.activity.rsupport.aas2" />
+                <package name="com.samsung.android.app.camera.sticker.local_csc.preload" />
+                <package name="com.samsungvietnam.galaxygift" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XEZ</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_XEZ_12_0006</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XFA</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_XFA_12_0005</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XME</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_XME_12_0010</Version>
+            <CustomerEdition>ED0009</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XNZ</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_XNZ_12_0010</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XSA</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_XSA_12_0014</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XSG</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_XSG_12_0011</Version>
+            <CustomerEdition>ED0010</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XSP</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_XSP_12_0007</Version>
+            <CustomerEdition>ED0006</CustomerEdition>
+            <Packages>
+                <package name="com.rsupport.rs.activity.rsupport.aas2" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XTC</CustomerCode>
+            <Version>SAOMC_SM-F900F_OXM_XTC_12_0006</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+            <Packages>
+                <package name="com.rsupport.rs.activity.rsupport.aas2" />
+                <package name="com.srph.emergency321" />
+            </Packages>
+        </OmcCode>
+    </OmcInfo>
+</SW-Configuration>

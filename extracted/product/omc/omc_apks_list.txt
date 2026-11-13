@@ -1,0 +1,4 @@
+/product/app/Multi_SKU_MDIP-mshop-android-optus-all-all-all-pre/Multi_SKU_MDIP-mshop-android-optus-all-all-all-pre.apk
+/product/app/UserManual/UserManual.apk
+/product/app/yandex.search/yandex.search.apk
+/product/priv-app/MyGalaxy_Stub/MyGalaxy_Stub.apk

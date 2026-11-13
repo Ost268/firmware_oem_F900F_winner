@@ -1,0 +1,36 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Dragon", "Surf", "QRD", "HDK"],
+    "soc_id": ["339"]
+  },
+  "lidangle_0_platform":{
+    "owner": "lidangle",
+    ".orient":{
+      "owner": "lidangle",
+      "x":{ "type": "str", "ver": "0",
+        "data": "+y"
+      },
+      "y":{ "type": "str", "ver": "0",
+        "data": "+x"
+      },
+      "z":{ "type": "str", "ver": "0",
+        "data": "-z"
+      }
+    },
+    ".lidangle":{
+      "owner": "lidangle",
+      ".config":{
+        "owner": "lidangle",
+        "k_acc":{ "type": "flt", "ver": "0",
+            "data": "0.1"
+        },
+        "k_lid":{ "type": "flt", "ver": "0",
+          "data": "0.02"
+        },
+       "upright_angle":{ "type": "flt", "ver": "0",
+          "data": "15.0"
+        }
+      }
+    }
+  }
+}

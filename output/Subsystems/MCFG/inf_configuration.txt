@@ -1,0 +1,101 @@
+mcfg_hw.uns.11 = 13,\MCFG
+mcfg_sw.uns.10 = 13,\MCFG
+sw_out.txt.9 = 13,\MCFG
+oem_sw_w.txt.8 = 13,\MCFG
+oem_sw_a.txt.7 = 13,\MCFG
+oem_sw.txt.6 = 13,\MCFG
+mbn_sw.txt.5 = 13,\MCFG
+mbn_sw.dig.4 = 13,\MCFG
+oem_hw.txt.3 = 13,\MCFG
+mbn_hw.txt.2 = 13,\MCFG
+mbn_hw.dig.1 = 13,\MCFG
+
+-------------------------------
+
+mcfg_hw.uns.11 = 1,\MCFG
+mcfg_sw.uns.10 = 1,\MCFG
+sw_out.txt.9 = 1,\MCFG
+oem_sw_w.txt.8 = 1,\MCFG
+oem_sw_a.txt.7 = 1,\MCFG
+oem_sw.txt.6 = 1,\MCFG
+mbn_sw.txt.5 = 1,\MCFG
+mbn_sw.dig.4 = 1,\MCFG
+oem_hw.txt.3 = 1,\MCFG
+mbn_hw.txt.2 = 1,\MCFG
+mbn_hw.dig.1 = 1,\MCFG
+
+-------------------------------
+
+CopyFiles=mcfg_hw.uns.11,mcfg_sw.uns.10,sw_out.txt.9,oem_sw_w.txt.8,oem_sw_a.txt.7,oem_sw.txt.6,mbn_sw.txt.5,mbn_sw.dig.4,oem_hw.txt.3,mbn_hw.txt.2,mbn_hw.dig.1
+
+-------------------------------
+
+[mcfg_hw.uns.11]
+mcfg_hw.uns.11
+[mcfg_sw.uns.10]
+mcfg_sw.uns.10
+[sw_out.txt.9]
+sw_out.txt.9
+[oem_sw_w.txt.8]
+oem_sw_w.txt.8
+[oem_sw_a.txt.7]
+oem_sw_a.txt.7
+[oem_sw.txt.6]
+oem_sw.txt.6
+[mbn_sw.txt.5]
+mbn_sw.txt.5
+[mbn_sw.dig.4]
+mbn_sw.dig.4
+[oem_hw.txt.3]
+oem_hw.txt.3
+[mbn_hw.txt.2]
+mbn_hw.txt.2
+[mbn_hw.dig.1]
+mbn_hw.dig.1
+
+-------------------------------
+
+; Updating registry of mbn_hw.dig.1 to remote path \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_hw\mbn_hw.dig
+HKR,Mappings\TFTP\Default\c3b6f0c8e600a5a3e601ae98386449c45aafdb30e348ef56327439c06ea6208d,"Local",%REG_SZ%, %13%\MCFG\mbn_hw.dig.1
+hkr,mappings\tftp\default\c3b6f0c8e600a5a3e601ae98386449c45aafdb30e348ef56327439c06ea6208d,"remote",%reg_sz%, \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_hw\mbn_hw.dig
+
+; Updating registry of mbn_hw.txt.2 to remote path \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_hw\mbn_hw.txt
+HKR,Mappings\TFTP\Default\6e3ac537fae238d5bcb37c4d499c464a06c385492c3b26343de638ad4976190a,"Local",%REG_SZ%, %13%\MCFG\mbn_hw.txt.2
+hkr,mappings\tftp\default\6e3ac537fae238d5bcb37c4d499c464a06c385492c3b26343de638ad4976190a,"remote",%reg_sz%, \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_hw\mbn_hw.txt
+
+; Updating registry of oem_hw.txt.3 to remote path \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_hw\oem_hw.txt
+HKR,Mappings\TFTP\Default\32e8f83e9c62b86d85c69f28fb551b913bc9b655ec0f111551acd4b667ee66d8,"Local",%REG_SZ%, %13%\MCFG\oem_hw.txt.3
+hkr,mappings\tftp\default\32e8f83e9c62b86d85c69f28fb551b913bc9b655ec0f111551acd4b667ee66d8,"remote",%reg_sz%, \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_hw\oem_hw.txt
+
+; Updating registry of mbn_sw.dig.4 to remote path \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_sw\mbn_sw.dig
+HKR,Mappings\TFTP\Default\8e89edaf9ca73c743ecb564e04f695d1e8d2a136ace69c7b0d023b26146bb0e3,"Local",%REG_SZ%, %13%\MCFG\mbn_sw.dig.4
+hkr,mappings\tftp\default\8e89edaf9ca73c743ecb564e04f695d1e8d2a136ace69c7b0d023b26146bb0e3,"remote",%reg_sz%, \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_sw\mbn_sw.dig
+
+; Updating registry of mbn_sw.txt.5 to remote path \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_sw\mbn_sw.txt
+HKR,Mappings\TFTP\Default\84bb4099cede114eed05a682ca2284560483fbe0b08f7577e1ff77a98bfec5a5,"Local",%REG_SZ%, %13%\MCFG\mbn_sw.txt.5
+hkr,mappings\tftp\default\84bb4099cede114eed05a682ca2284560483fbe0b08f7577e1ff77a98bfec5a5,"remote",%reg_sz%, \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_sw\mbn_sw.txt
+
+; Updating registry of oem_sw.txt.6 to remote path \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_sw\oem_sw.txt
+HKR,Mappings\TFTP\Default\dcf306589f1cdb2c590b9dcc29178ccdf62e9668eaf8afdcd15649801dc27a1f,"Local",%REG_SZ%, %13%\MCFG\oem_sw.txt.6
+hkr,mappings\tftp\default\dcf306589f1cdb2c590b9dcc29178ccdf62e9668eaf8afdcd15649801dc27a1f,"remote",%reg_sz%, \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_sw\oem_sw.txt
+
+; Updating registry of oem_sw_a.txt.7 to remote path \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_sw\oem_sw_a.txt
+HKR,Mappings\TFTP\Default\ba78c4971140ea0b7818ec8d7a75f53cb9ec8a70cc540dd39b02101456217882,"Local",%REG_SZ%, %13%\MCFG\oem_sw_a.txt.7
+hkr,mappings\tftp\default\ba78c4971140ea0b7818ec8d7a75f53cb9ec8a70cc540dd39b02101456217882,"remote",%reg_sz%, \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_sw\oem_sw_a.txt
+
+; Updating registry of oem_sw_w.txt.8 to remote path \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_sw\oem_sw_w.txt
+HKR,Mappings\TFTP\Default\2ac573277d6e22f38ee482be14e8b48c97c6921e2afadb2c037b4869c863307f,"Local",%REG_SZ%, %13%\MCFG\oem_sw_w.txt.8
+hkr,mappings\tftp\default\2ac573277d6e22f38ee482be14e8b48c97c6921e2afadb2c037b4869c863307f,"remote",%reg_sz%, \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_sw\oem_sw_w.txt
+
+; Updating registry of sw_out.txt.9 to remote path \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_sw\sw_out.txt
+HKR,Mappings\TFTP\Default\457ce16e25b63aeb583806e1c28d81121285a3fcbd9cc9e72dc18d593438a012,"Local",%REG_SZ%, %13%\MCFG\sw_out.txt.9
+hkr,mappings\tftp\default\457ce16e25b63aeb583806e1c28d81121285a3fcbd9cc9e72dc18d593438a012,"remote",%reg_sz%, \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_sw\sw_out.txt
+
+; Updating registry of mcfg_sw.uns.10 to remote path \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_sw\generic\eu\open\commerci\mcfg_sw.uns
+HKR,Mappings\TFTP\Default\ba3dd815fc6662fad7f000f3da830b1ca6059a0f0ecfe922809e41e1985a87e6,"Local",%REG_SZ%, %13%\MCFG\mcfg_sw.uns.10
+hkr,mappings\tftp\default\ba3dd815fc6662fad7f000f3da830b1ca6059a0f0ecfe922809e41e1985a87e6,"remote",%reg_sz%, \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_sw\generic\eu\open\commerci\mcfg_sw.uns
+
+; Updating registry of mcfg_hw.uns.11 to remote path \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_hw\generic\common\sm8150\la\7+7_mode\sr_dsds\mcfg_hw.uns
+HKR,Mappings\TFTP\Default\07c519369d084ea919ed0f09566fcffdbe335913beccd4114c84fde1d5d4f4c6,"Local",%REG_SZ%, %13%\MCFG\mcfg_hw.uns.11
+hkr,mappings\tftp\default\07c519369d084ea919ed0f09566fcffdbe335913beccd4114c84fde1d5d4f4c6,"remote",%reg_sz%, \rfs\msm\mpss\readonly\firmware\image\modem_pr\mcfg\configs\mcfg_hw\generic\common\sm8150\la\7+7_mode\sr_dsds\mcfg_hw.uns
+

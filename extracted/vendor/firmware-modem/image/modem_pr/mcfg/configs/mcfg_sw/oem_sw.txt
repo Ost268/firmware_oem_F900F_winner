@@ -1,0 +1,1 @@
+mcfg_sw/generic/eu/open/commerci/mcfg_sw.mbn
