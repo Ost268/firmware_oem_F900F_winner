@@ -275,13 +275,13 @@ echo Converting engmode (n=engmode;p=8:c477a8cf3e4089,61,82:6004,b4) QSEE Applet
 python tools\pil-squasher.py ./output/TrEE/engmode.mbn .\extracted\vendor\firmware_mnt\engmode.mdt
 
 echo Converting hdcpsrm (n=hdcpsrm;p=8:c47728cf3e4089,5d:8,82:6004,b4;s=5e) QSEE Applet...
-python tools\pil-squasher.py ./output/TrEE/hdcpsrm.mbn ./extracted/vendor/firmware_mnt/image/hdcpsrm.mdt"
+python tools\pil-squasher.py ./output/TrEE/hdcpsrm.mbn ./extracted/vendor/firmware_mnt/image/hdcpsrm.mdt
 
 echo Converting qcom.tz.hdcp2p2 (n=qcom.tz.hdcp2p2;p=8:c47728cf3e408911,5a:94,82:6004,b4;s=43,56) QSEE Applet...
-python tools\pil-squasher.py ./output/TrEE/hdcp2p2.mbn ./extracted/vendor/firmware_mnt/image/hdcp2p2.mdt"
+python tools\pil-squasher.py ./output/TrEE/hdcp2p2.mbn ./extracted/vendor/firmware_mnt/image/hdcp2p2.mdt
 
 echo Converting hdcp1 (n=hdcp1;p=8:c477a8cf3e40893,61,82:6004,b4;s=55) QSEE Applet...
-python tools\pil-squasher.py ./output/TrEE/hdcp1.mbn ./extracted/vendor/firmware_mnt/image/hdcp1.mdt"
+python tools\pil-squasher.py ./output/TrEE/hdcp1.mbn ./extracted/vendor/firmware_mnt/image/hdcp1.mdt
 
 echo Converting tz_iccc (n=tz_iccc;p=8:c477a8cf3ec089,61,80:a1001,b4,400;s=106:81) QSEE Applet...
 python tools\pil-squasher.py ./output/TrEE/tz_iccc.mbn .\extracted\vendor\firmware_mnt\tz_iccc.mdt
