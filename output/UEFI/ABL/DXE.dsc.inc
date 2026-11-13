@@ -1,0 +1,3 @@
+QcomModulePkg/Application/OdinApp/OdinApp_8150.inf
+QcomModulePkg/Application/LinuxLoader/LinuxLoader.inf
+QcomModulePkg/Application/SamsungQuestApp/SamsungQuestCryptest.inf

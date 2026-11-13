@@ -1,6 +1,3 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-* git add --renormalize .
-* git add . -u
-* git commit -m "Saving files before refreshing line endings"
 
