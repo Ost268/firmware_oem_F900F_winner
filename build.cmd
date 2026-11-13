@@ -210,9 +210,6 @@ xcopy /qchky /-i extracted\fts9cu80f_winner.fw output\Touch\FW\fts9cu80f_winner.
 REM Bluetooth
 mkdir output\BT
 
-echo Copying Blueooth Firmware Files...
-xcopy /qchky /-i extracted\vendor\firmware-mnt\image\wil6436_.fw output\BT\wil6436_.fw
-
 REM WCNSS
 mkdir output\Subsystems\WCNSS
 
