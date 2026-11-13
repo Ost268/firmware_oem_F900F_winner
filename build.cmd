@@ -239,7 +239,7 @@ REM WDSP
 mkdir output\Subsystems\WDSP
 
 echo Converting Wave DSP Image...
-python tools\pil-squasher.py ./output/Subsystems/WDSP/qcwdsp%SOC%.mbn ./extracted/modem/image/cpe_9340.mdt"
+python tools\pil-squasher.py ./output/Subsystems/WDSP/qcwdsp%SOC%.mbn ./extracted/modem/image/cpe_9340.mdt
 
 
 REM Sensors
@@ -274,41 +274,32 @@ mkdir output\TrEE
 echo Converting engmode (n=engmode;p=8:c477a8cf3e4089,61,82:6004,b4) QSEE Applet...
 python tools\pil-squasher.py ./output/TrEE/engmode.mbn .\extracted\vendor\firmware_mnt\engmode.mdt
 
-echo Converting fingerprint (m=x;n=fingerprint;p=b:9fa409f7e90031,82:6) QSEE Applet...
-python tools\pil-squasher.py ./output/TrEE/fpctzrel.mbn ./extracted/vendor/firmware_mnt/image/fpctzrel.mdt"
+echo Converting hdcpsrm (n=hdcpsrm;p=8:c47728cf3e4089,5d:8,82:6004,b4;s=5e) QSEE Applet...
+python tools\pil-squasher.py ./output/TrEE/hdcpsrm.mbn ./extracted/vendor/firmware_mnt/image/hdcpsrm.mdt"
+
+echo Converting qcom.tz.hdcp2p2 (n=qcom.tz.hdcp2p2;p=8:c47728cf3e408911,5a:94,82:6004,b4;s=43,56) QSEE Applet...
+python tools\pil-squasher.py ./output/TrEE/hdcp2p2.mbn ./extracted/vendor/firmware_mnt/image/hdcp2p2.mdt"
 
 echo Converting hdcp1 (n=hdcp1;p=8:c477a8cf3e40893,61,82:6004,b4;s=55) QSEE Applet...
-python tools\pil-squasher.py ./output/TrEE/hdcp1.mbn .\extracted\vendor\firmware_mnt\hdcp1.mdt
-
-echo Converting hdcp2p2 (n=qcom.tz.hdcp2p2;p=8:c47728cf3e408911,5a:94,82:6004,b4;s=43,56) QSEE Applet...
-python tools\pil-squasher.py ./output/TrEE/hdcp2p2.mbn .\extracted\vendor\firmware_mnt\image\hdcp1.mdt
-
-echo Converting hdcpsrm (n=hdcpsrm;p=8:c47728cf3e4089,5d:8,82:6004,b4;s=5e) QSEE Applet...
-python tools\pil-squasher.py ./output/TrEE/hdcpsrm.mbn .\extracted\vendor\firmware_mnt\hdcpsrm.mdt
-
-echo Converting tz_hdm (n=tz_hdm;p=8:c47728cf3e4089,61,80:a1001,b4,106:81;s=122) QSEE Applet...
-python tools\pil-squasher.py ./output/TrEE/tz_hdm.mbn .\extracted\vendor\firmware_mnt\tz_hdm.mdt
+python tools\pil-squasher.py ./output/TrEE/hdcp1.mbn ./extracted/vendor/firmware_mnt/image/hdcp1.mdt"
 
 echo Converting tz_iccc (n=tz_iccc;p=8:c477a8cf3ec089,61,80:a1001,b4,400;s=106:81) QSEE Applet...
 python tools\pil-squasher.py ./output/TrEE/tz_iccc.mbn .\extracted\vendor\firmware_mnt\tz_iccc.mdt
 
-echo Converting tz_kg (n=tz_kg;p=8:c477a8cf3e4089,61,80:a1001,b4,122,1036640) QSEE Applet...
-python tools\pil-squasher.py ./output/TrEE/tz_kg.mbn .\extracted\vendor\firmware_mnt\tz_kg.mdt
-
 echo Converting vaultkeeper (n=vaultkeeper;p=8:c477a8cf3e4089,61,82:6004,b4,1036640) QSEE Applet...
-python tools\pil-squasher.py ./output/TrEE/vaultkeeper.mbn .\extracted\vendor\firmware_mnt\vaultkeeper.mdt
+python tools\pil-squasher.py ./output/TrEE/vaultkee.mbn .\extracted\vendor\firmware_mnt\vaultkee.mdt
 
 echo Converting voicepri (n=voiceprint;p=8:c47728cf3e4089,61,82:6004,b4) QSEE Applet...
 python tools\pil-squasher.py ./output/TrEE/voicepri.mbn .\extracted\vendor\firmware_mnt\voicepri.mdt
 
 echo Copying widevine (n=widevine;p=8:c47728cf3e4089,5a:24,82:68048,b4,32b,4b1,dac;s=dac) QSEE Applet...
-xcopy /qchky /-i output\TrEE\widevine.mbn .\extracted\vendor\firmware_mnt\
+python tools\pil-squasher.py ./output\TrEE\widevine.mbn .\extracted\vendor\firmware_mnt\widevine.mdt 
 
 echo Copying rtic (n=rtic;p=8:c47728cf3e4289,60:30080400a3001,b4;s=46;u=6238333e1eb7ea11b3de0242ac130004) QSEE Applet...
-xcopy /qchky /-i output\TrEE\haventkn.mbn .\extracted\vendor\firmware_mnt\haventkn.mdt
+python tools\pil-squasher.py ./output\TrEE\haventkn.mbn .\extracted\vendor\firmware_mnt\haventkn.mdt
 
 echo Converting cppf (n=cppf;p=b:9ea409f7c90031,5a,82:6) QSEE Applet...
-python tools\pil-squasher.py ./output/TrEE/cppf.mbn ./extracted/vendor/firmware_mnt/image/cppf.mdt"
+python tools\pil-squasher.py ./output/TrEE/cppf.mbn ./extracted/vendor/firmware_mnt/image/cppf.mdt
 
 REM START: Do we need those? They should already be loaded in UEFI.
 
